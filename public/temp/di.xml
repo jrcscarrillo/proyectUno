@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <Phalcon_Di_FactoryDefault_Object> 
+        <_services:protected>  Array ( 
+            <router>  Phalcon\Di\Service Object ( 
+                <_name:protected>  router 
+                </_name:protected>
+                <_definition:protected>  Phalcon\Mvc\Router </_definition:protected>
+                <_shared:protected>  1</_shared:protected> 
+                <_resolved:protected></_resolved:protected>  
+                <_sharedInstance:protected>  )</_sharedInstance:protected>
+            </router>  
+            <dispatcher>  Phalcon\Di\Service Object ( 
+                <_name:protected>  dispatcher</_name:protected> 
+                <_definition:protected>  Phalcon\Mvc\Dispatcher </_definition:protected> 
+                <_shared:protected>  1 </_shared:protected>
+                <_resolved:protected>  </_resolved:protected>
+                <_sharedInstance:protected>  ) </_sharedInstance:protected>
+            </dispatcher>
+            <url>  Phalcon\Di\Service Object ( 
+                <_name:protected>  url</_name:protected> 
+                <_definition:protected>  Closure Object ( )</_definition:protected> 
+                <_shared:protected>  1</_shared:protected> 
+                <_resolved:protected>  </_resolved:protected>
+                <_sharedInstance:protected>  )</_sharedInstance:protected>
+            </url> 
+            <modelsManager>  Phalcon\Di\Service Object ( 
+                <_name:protected>  modelsManager</_name:protected> 
+                <_definition:protected>  Phalcon\Mvc\Model\Manager</_definition:protected> 
+                <_shared:protected>  1</_shared:protected> 
+                <_resolved:protected>  </_resolved:protected>
+                <_sharedInstance:protected>  )</_sharedInstance:protected>
+            </modelsManager> 
+            <modelsMetadata>  Phalcon\Di\Service Object ( <_name:protected>  modelsMetadata <_definition:protected>  Closure Object ( ) <_shared:protected>  1 <_resolved:protected>  
+                                <_sharedInstance:protected>  ) <response>  Phalcon\Di\Service Object ( <_name:protected>  response <_definition:protected>  Phalcon\Http\Response <_shared:protected>  1 <_resolved:protected>  
+                                                        <_sharedInstance:protected>  ) <cookies>  Phalcon\Di\Service Object ( <_name:protected>  cookies <_definition:protected>  Phalcon\Http\Response\Cookies <_shared:protected>  1 <_resolved:protected>  
+                                                                                <_sharedInstance:protected>  ) <request>  Phalcon\Di\Service Object ( <_name:protected>  request <_definition:protected>  Phalcon\Http\Request <_shared:protected>  1 <_resolved:protected>  
+                                                                                                        <_sharedInstance:protected>  ) <filter>  Phalcon\Di\Service Object ( <_name:protected>  filter <_definition:protected>  Phalcon\Filter <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                <_sharedInstance:protected>  ) <escaper>  Phalcon\Di\Service Object ( <_name:protected>  escaper <_definition:protected>  Phalcon\Escaper <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                        <_sharedInstance:protected>  ) <security>  Phalcon\Di\Service Object ( <_name:protected>  security <_definition:protected>  Phalcon\Security <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                <_sharedInstance:protected>  ) <crypt>  Phalcon\Di\Service Object ( <_name:protected>  crypt <_definition:protected>  Phalcon\Crypt <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                        <_sharedInstance:protected>  ) <annotations>  Phalcon\Di\Service Object ( <_name:protected>  annotations <_definition:protected>  Phalcon\Annotations\Adapter\Memory <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                <_sharedInstance:protected>  ) <flash>  Phalcon\Di\Service Object ( <_name:protected>  flash <_definition:protected>  Closure Object ( ) <_shared:protected>  
+                                                                                                                                                                                                                                                    <_resolved:protected>  
+                                                                                                                                                                                                                                                        <_sharedInstance:protected>  ) <flashSession>  Phalcon\Di\Service Object ( <_name:protected>  flashSession <_definition:protected>  Phalcon\Flash\Session <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                <_sharedInstance:protected>  ) <tag>  Phalcon\Di\Service Object ( <_name:protected>  tag <_definition:protected>  Phalcon\Tag <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                        <_sharedInstance:protected>  ) <session>  Phalcon\Di\Service Object ( <_name:protected>  session <_definition:protected>  Closure Object ( ) <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                                                <_sharedInstance:protected>  ) <sessionBag>  Phalcon\Di\Service Object ( <_name:protected>  sessionBag <_definition:protected>  Phalcon\Session\Bag <_shared:protected>  
+                                                                                                                                                                                                                                                                                                                                                    <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                                                                        <_sharedInstance:protected>  ) <eventsManager>  Phalcon\Di\Service Object ( <_name:protected>  eventsManager <_definition:protected>  Phalcon\Events\Manager <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                                                                                                <_sharedInstance:protected>  ) <transactionManager>  Phalcon\Di\Service Object ( <_name:protected>  transactionManager <_definition:protected>  Phalcon\Mvc\Model\Transaction\Manager <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                                                                                                                        <_sharedInstance:protected>  ) <assets>  Phalcon\Di\Service Object ( <_name:protected>  assets <_definition:protected>  Phalcon\Assets\Manager <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                                                                                                                                                <_sharedInstance:protected>  ) <config>  Phalcon\Di\Service Object ( <_name:protected>  config <_definition:protected>  Closure Object ( ) <_shared:protected>  1 <_resolved:protected>  1 <_sharedInstance:protected>  Phalcon\Config Object ( <database>  Phalcon\Config Object ( <adapter>  Mysql <host>  localhost <username>  aurora <password>  f9234568 <dbname>  vokuro <charset>  utf8 ) <application>  Phalcon\Config Object ( <appDir>  C:\wamp64\www\proyectoUno/app/ <controllersDir>  C:\wamp64\www\proyectoUno/app/controllers/ <modelsDir>  C:\wamp64\www\proyectoUno/app/models/ <migrationsDir>  C:\wamp64\www\proyectoUno/app/migrations/ <viewsDir>  C:\wamp64\www\proyectoUno/app/views/ <pluginsDir>  C:\wamp64\www\proyectoUno/app/plugins/ <libraryDir>  C:\wamp64\www\proyectoUno/app/library/ <cacheDir>  C:\wamp64\www\proyectoUno/cache/ <baseUri>  /proyectoUno/ ) ) ) <view>  Phalcon\Di\Service Object ( <_name:protected>  view <_definition:protected>  Closure Object ( ) <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <_sharedInstance:protected>  ) <db>  Phalcon\Di\Service Object ( <_name:protected>  db <_definition:protected>  Closure Object ( ) <_shared:protected>  1 <_resolved:protected>  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <_sharedInstance:protected>  ) )
+        </_services:protected> 
+        <_sharedInstances:protected>  Array ( 
+            <config>  Phalcon\Config Object ( 
+                <database>  Phalcon\Config Object ( 
+                    <adapter>  Mysql</adapter> 
+                    <host>  localhost</host> 
+                    <username>  aurora</username> 
+                    <password>  f9234568</password> 
+                    <dbname>  vokuro</dbname> 
+                    <charset>  utf8</charset> )
+                </database> 
+                <application>  Phalcon\Config Object ( <appDir>  C:\wamp64\www\proyectoUno/app/</appDir> 
+                    <controllersDir>  C:\wamp64\www\proyectoUno/app/controllers/</controllersDir> 
+                    <modelsDir>  C:\wamp64\www\proyectoUno/app/models/</modelsDir> 
+                    <migrationsDir>  C:\wamp64\www\proyectoUno/app/migrations/</migrationsDir> 
+                    <viewsDir>  C:\wamp64\www\proyectoUno/app/views/</viewsDir> 
+                    <pluginsDir>  C:\wamp64\www\proyectoUno/app/plugins/</pluginsDir> 
+                    <libraryDir>  C:\wamp64\www\proyectoUno/app/library/</libraryDir> 
+                    <cacheDir>  C:\wamp64\www\proyectoUno/cache/</cacheDir> 
+                    <baseUri>  /proyectoUno/ ) ) )</baseUri> 
+                </application> 
+            </config>
+            <_freshInstance:protected/>  1 
+            <_eventsManager:protected/>  )
+        </_sharedInstances:protected>
+    </_eventsManager:protected>
+</_eventsManager:protected>
+</_eventsManager:protected>
+</_eventsManager:protected>
+Congratulations!
+You're now flying with Phalcon. Great things are about to happen!
+
+This page is located at views/index/index.volt   
+</root>
